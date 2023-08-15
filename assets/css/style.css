@@ -1,0 +1,59 @@
+nav {
+display: flex;
+justify-content: end;
+
+}
+
+nav li {
+    list-style: none;
+    margin: 5px;
+
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+#linkedIn {
+    height: 50%;
+    width: 40%;
+
+}
+
+
+.flex-container {
+    display: flex;
+    margin: 10px;
+}
+
+.title {
+    flex: 1 0 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-details {
+    flex: 1 0 75%;
+    padding: 15px;
+    border-left: 3px solid #000;
+}
+
+#title-details {
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+#title-details :nth-child(1){
+    flex: 1 0 100%;
+}
+
+#title-details img{
+    flex: 1 0 45%;
+    margin: 5px;
+}
+
+img {
+    width: 10%;
+}
